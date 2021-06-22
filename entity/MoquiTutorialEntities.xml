@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/entity-definition-2.1.xsd">
+
+	<entity entity-name="MoquiTutorial" package="moqui.tutorial" short-alias="tutorials">
+		<field name="tutorialId" type="id" is-pk="true"/>
+		<field name="tutorialName" type="text-medium"/>
+		<field name="tutorialDate" type="date-time"/>
+		<field name="tutorialPrice" type="number-decimal"/>
+		<field name="tutorialDuration" type="number-integer"/>
+	</entity>
+</entities>
