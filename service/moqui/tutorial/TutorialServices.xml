@@ -2,7 +2,6 @@
 <services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/service-definition-2.1.xsd">
 
 	<!-- Tutorial Services -->
-
 	<!-- Example 1: Entity Auto service -->
 	<service verb="create" noun="MoquiTutorial" type="entity-auto">
 		<in-parameters>
